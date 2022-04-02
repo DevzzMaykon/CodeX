@@ -1,5 +1,6 @@
 <h1 text align="center">CodeX</h1>
-<b>CodeX Dork Scanner in Python</b>
+<b>CodeX Dork Scanner in Python</b></br>
+
 <img src='https://img.shields.io/badge/python-3-brightgreen'>
 <img src='https://img.shields.io/badge/CodeX-Dork%20Scanner%20-brightgreen'>
 </br></br>
