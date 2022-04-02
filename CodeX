@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-import random
 import requests
 
 # CodeX: Dork Scanner feito em Python
