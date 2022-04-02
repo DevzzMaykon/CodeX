@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+
+import random
+import requests
+
+# CodeX: Dork Scanner feito em Python
+# Criador: DevzzMaykon
+# Versão: 1.0.0
+# Sistemas: Linux/Windows
+# Licensa: MIT License
+
+# Banner:
+def codex():
+    print("""\033[1;31m
+      _|_|_|                  _|            _|      _|
+    _|          _|_|      _|_|_|    _|_|      _|  _|
+    _|        _|    _|  _|    _|  _|_|_|_|      _|
+    _|        _|    _|  _|    _|  _|          _|  _|
+      _|_|_|    _|_|      _|_|_|    _|_|_|  _|      _|
+  \033[0m
+criador: DevzzMaykon
+    """)
+
+# Dork:
+def scanner():
+    codex()
+
+    site = input("site alvo: ")
+    if "https://" not in site:
+        print("Modo de uso: https://alvo.com")
+        exit()
+    lista = ["robots.txt", "wp-admin", "php?id=1", "inurl:phpmyadmin", '/wp-content/uploads/ ext:txt “username” AND “password” | “pwd” | “pw”', "dump.sql"]
+    for itens in lista:
+        alvo = f"{site}/{itens}"
+        req = requests.get(alvo)
+        req.status_code
+        if req.status_code == 200:
+            print(f"{alvo} - Status [\033[1;34mON\033[0m]")
+        elif req.status_code == 404:
+            print(f"{alvo} - Status [\033[1;31mOFF\033[0m]")
+
+scanner()
