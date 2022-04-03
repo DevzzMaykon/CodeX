@@ -18,7 +18,7 @@ Ou:
 
     python CodeX <site>
 
-<p>Ao executar a ferramenta, ela irá fazer um bruteforces de possíveis dorks mais comuns encontradas em sites vulneráveis</p>
+<p>Ao executar a ferramenta, ela irá fazer um bruteforce de possíveis dorks mais comuns encontradas em sites vulneráveis</p>
 
 <b>Organizações responsáveis pela ferramenta:</b>
 <li> Syngroup.org
