@@ -1,6 +1,4 @@
-<h1 text align='center'>CodeX</h1>
-<img src='IMG-20220402-WA0077~2.jpg'>
-<img src='https://c.tenor.com/_7r8RXryt3QAAAAM/python-powered.gif'>
+<img align='center' src='IMG-20220402-WA0077~2.jpg'>
 
 </br><img src='https://img.shields.io/badge/CodeX-Dork%20Scanner%20-brightgreen'>
 <img src='https://img.shields.io/badge/criador-DevzzMaykon%20-yellowgreen'>
@@ -12,15 +10,16 @@
 </p>
 <h2 text align='center'>Modo de uso:</h2>
 
-<li> para fazer o download da ferramenta:
+<li> Para fazer o download da ferramenta:
 
     git clone https://github.com/DevzzMaykon/CodeX
 
-<li> Para usar:
-
+<li> Para usar(modo interativo):
+    
     cd CodeX
     python CodeX
-Ou:
+    
+<li> Ou por argumento via linha de comando:
 
     python CodeX <site>
 
@@ -32,3 +31,4 @@ Ou:
 
 <h3 text align='center'>Aviso aos usuários</h3>
 <b>O criador não se responsabiliza pelos atos cometidos pelos usuários, a ferramenta tem como destinatário os estudantes de segurança da informação!</b></br></br>
+<br><img src='https://c.tenor.com/_7r8RXryt3QAAAAM/python-powered.gif'>
